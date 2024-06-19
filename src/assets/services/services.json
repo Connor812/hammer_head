@@ -1,0 +1,170 @@
+[
+  {
+    "id": "windows",
+    "name": "Windows",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi totam in est quibusdam voluptate atque inventore fuga quos hic? Reiciendis, pariatur atque harum eum rem similique! Inventore nam praesentium sunt, nostrum atque ipsa quae nihil natus itaque eius soluta ad, nobis, culpa deserunt consequuntur officiis earum ab. Ut, sint natus!",
+    "image": "/assets/images/window.jpg",
+    "images": [
+      "/assets/images/window.jpg",
+      "/assets/images/window.jpg",
+      "/assets/images/window.jpg",
+      "/assets/images/window.jpg"
+    ],
+    "reviews": [
+      {
+        "name": "Connor",
+        "comment": "Awesome job",
+        "rating": "3.5",
+        "date": "2024-01-01",
+        "image": "https://i.pinimg.com/originals/90/d1/ac/90d1ac48711f63c6a290238c8382632f.jpg"
+      },
+      {
+        "name": "Connor",
+        "comment": "Awesome job",
+        "rating": "5",
+        "date": "2024-01-01",
+        "image": "https://i.pinimg.com/originals/90/d1/ac/90d1ac48711f63c6a290238c8382632f.jpg"
+      },
+      {
+        "name": "Connor",
+        "comment": "Awesome job",
+        "rating": "5",
+        "date": "2024-01-01",
+        "image": "https://i.pinimg.com/originals/90/d1/ac/90d1ac48711f63c6a290238c8382632f.jpg"
+      },
+      {
+        "name": "Connor",
+        "comment": "Awesome job",
+        "rating": "5",
+        "date": "2024-01-01",
+        "image": "https://i.pinimg.com/originals/90/d1/ac/90d1ac48711f63c6a290238c8382632f.jpg"
+      },
+      {
+        "name": "Connor",
+        "comment": "Awesome job",
+        "rating": "5",
+        "date": "2024-01-01",
+        "image": "https://i.pinimg.com/originals/90/d1/ac/90d1ac48711f63c6a290238c8382632f.jpg"
+      },
+      {
+        "name": "Connor",
+        "comment": "Awesome job",
+        "rating": "5",
+        "date": "2024-01-01",
+        "image": "https://i.pinimg.com/originals/90/d1/ac/90d1ac48711f63c6a290238c8382632f.jpg"
+      },
+      {
+        "name": "Connor",
+        "comment": "Awesome job",
+        "rating": "5",
+        "date": "2024-01-01",
+        "image": "https://i.pinimg.com/originals/90/d1/ac/90d1ac48711f63c6a290238c8382632f.jpg"
+      }
+    ]
+  },
+  {
+    "id": "eavestrough",
+    "name": "Eavestrough",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi totam in est quibusdam voluptate atque inventore fuga quos hic? Reiciendis, pariatur atque harum eum rem similique! Inventore nam praesentium sunt, nostrum atque ipsa quae nihil natus itaque eius soluta ad, nobis, culpa deserunt consequuntur officiis earum ab. Ut, sint natus!",
+    "image": "/assets/images/window.jpg",
+    "images": [
+      "/assets/images/window.jpg",
+      "/assets/images/window.jpg",
+      "/assets/images/window.jpg",
+      "/assets/images/window.jpg"
+    ],
+    "reviews": [
+      {
+        "name": "Connor",
+        "comment": "Awesome job",
+        "rating": "5",
+        "date": "2024-01-01",
+        "image": "https://i.pinimg.com/originals/90/d1/ac/90d1ac48711f63c6a290238c8382632f.jpg"
+      }
+    ]
+  },
+  {
+    "id": "yards",
+    "name": "Yards & Patios",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi totam in est quibusdam voluptate atque inventore fuga quos hic? Reiciendis, pariatur atque harum eum rem similique! Inventore nam praesentium sunt, nostrum atque ipsa quae nihil natus itaque eius soluta ad, nobis, culpa deserunt consequuntur officiis earum ab. Ut, sint natus!",
+    "image": "/assets/images/window.jpg",
+    "images": [
+      "/assets/images/window.jpg",
+      "/assets/images/window.jpg",
+      "/assets/images/window.jpg",
+      "/assets/images/window.jpg"
+    ],
+    "reviews": [
+      {
+        "name": "Connor",
+        "comment": "Awesome job",
+        "rating": "5",
+        "date": "2024-01-01",
+        "image": "https://i.pinimg.com/originals/90/d1/ac/90d1ac48711f63c6a290238c8382632f.jpg"
+      }
+    ]
+  },
+  {
+    "id": "gardens",
+    "name": "Gardens",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi totam in est quibusdam voluptate atque inventore fuga quos hic? Reiciendis, pariatur atque harum eum rem similique! Inventore nam praesentium sunt, nostrum atque ipsa quae nihil natus itaque eius soluta ad, nobis, culpa deserunt consequuntur officiis earum ab. Ut, sint natus!",
+    "image": "/assets/images/window.jpg",
+    "images": [
+      "/assets/images/window.jpg",
+      "/assets/images/window.jpg",
+      "/assets/images/window.jpg",
+      "/assets/images/window.jpg"
+    ],
+    "reviews": [
+      {
+        "name": "Connor",
+        "comment": "Awesome job",
+        "rating": "5",
+        "date": "2024-01-01",
+        "image": "https://i.pinimg.com/originals/90/d1/ac/90d1ac48711f63c6a290238c8382632f.jpg"
+      }
+    ]
+  },
+  {
+    "id": "buildings",
+    "name": "Buildings",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi totam in est quibusdam voluptate atque inventore fuga quos hic? Reiciendis, pariatur atque harum eum rem similique! Inventore nam praesentium sunt, nostrum atque ipsa quae nihil natus itaque eius soluta ad, nobis, culpa deserunt consequuntur officiis earum ab. Ut, sint natus!",
+    "image": "/assets/images/window.jpg",
+    "images": [
+      "/assets/images/window.jpg",
+      "/assets/images/window.jpg",
+      "/assets/images/window.jpg",
+      "/assets/images/window.jpg"
+    ],
+    "reviews": [
+      {
+        "name": "Connor",
+        "comment": "Awesome job",
+        "rating": "5",
+        "date": "2024-01-01",
+        "image": "https://i.pinimg.com/originals/90/d1/ac/90d1ac48711f63c6a290238c8382632f.jpg"
+      }
+    ]
+  },
+  {
+    "id": "vehicles",
+    "name": "Vehicles",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi totam in est quibusdam voluptate atque inventore fuga quos hic? Reiciendis, pariatur atque harum eum rem similique! Inventore nam praesentium sunt, nostrum atque ipsa quae nihil natus itaque eius soluta ad, nobis, culpa deserunt consequuntur officiis earum ab. Ut, sint natus!",
+    "image": "/assets/images/window.jpg",
+    "images": [
+      "/assets/images/window.jpg",
+      "/assets/images/window.jpg",
+      "/assets/images/window.jpg",
+      "/assets/images/window.jpg"
+    ],
+    "reviews": [
+      {
+        "name": "Connor",
+        "comment": "Awesome job",
+        "rating": "5",
+        "date": "2024-01-01",
+        "image": "https://i.pinimg.com/originals/90/d1/ac/90d1ac48711f63c6a290238c8382632f.jpg"
+      }
+    ]
+  }
+]

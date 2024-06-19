@@ -1,0 +1,80 @@
+.service-reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.service-display {
+    padding-top: calc(var(--header-height) + 20px) !important;
+    display: flex;
+    padding: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .service-display {
+        flex-direction: column-reverse;
+    }
+
+    .service-carousel-wrapper {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .service-carousel-container {
+        width: 40% !important;
+        min-width: 352px !important;
+        height: auto;
+    }
+}
+
+.review {
+    width: 100%;
+    height: auto;
+    background-color: var(--grey);
+    padding: 20px;
+    border: 1px solid var(--black);
+    border-radius: var(--border-radius);
+}
+
+.profile-image-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profile-image {
+    aspect-ratio: 1/1;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.review-rating svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--yellow);
+    stroke: black;
+    stroke-width: 10px;
+}
+
+.service-carousel-container {
+    width: 100%;
+    min-width: 352px;
+}
+
+.service-carousel-wrapper {
+    width: 40%;
+}
+
+.toggle-reviews-btn {
+    background: none;
+    border: none;
+    text-align: start;
+    color: var(--blue) !important;
+}
+
+.toggle-reviews-btn:hover {
+    color: var(--blue-hover) !important;
+}

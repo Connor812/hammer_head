@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Alert } from 'react-bootstrap';
 import services from '../assets/services/services.json';
+import { SendQuote } from '../utils/SendQuote';
 
 import { PostData } from "../utils/PostData";
 import "../assets/css/quote.css";
@@ -11,61 +12,6 @@ function Quote() {
     const navigate = useNavigate();
     const serviceId = useParams().id;
     const [error, setError] = useState(null);
-
-    function handleSubmit(e) {
-        e.preventDefault();
-        setError(null);
-
-        const formData = new FormData(formRef.current);
-        const name = formData.get('name');
-        const email = formData.get('email');
-        const phone = formData.get('phone');
-        const message = formData.get('message');
-
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        const phoneRegex = /^\d{3}-\d{3}-\d{4}$/;
-
-        if (!name || !email || !phone || !message) {
-            scrollToTop();
-            setError('Please fill out all required fields.');
-            return;
-        }
-
-        if (!emailRegex.test(email)) {
-            scrollToTop();
-            setError('Please enter a valid email address.');
-            return;
-        }
-
-        if (!phoneRegex.test(phone)) {
-            scrollToTop();
-            setError('Please enter a valid phone number in the format 519-718-3002.');
-            return;
-        }
-
-        const serviceCheckboxes = formRef.current.querySelectorAll('input[type="checkbox"]');
-        const selectedServices = Array.from(serviceCheckboxes).filter(checkbox => checkbox.checked).map(checkbox => checkbox.value);
-
-        // If all fields are filled out and valid, you can submit the form data here.
-        PostData("send-quote.php", { name, email, phone, services: selectedServices, message })
-            .then((response) => {
-                if (response.status === 'success') {
-                    navigate('/quote_success');
-                } else if (response.status === 'error') {
-                    scrollToTop();
-                    setError("Message failed to send.");
-                }
-            })
-            .catch((error) => {
-                scrollToTop();
-                setError("Message failed to send. " + error);
-            });
-
-    }
-
-    function scrollToTop() {
-        window.scrollTo(0, 0);
-    }
 
 
     return (
@@ -100,7 +46,7 @@ function Quote() {
                         <textarea id="message" name="message" rows={8} required placeholder='Please Detail Your Property As Best As You Can'></textarea>
                     </div>
                     <center>
-                        <button className="button button-blue" type="button" onClick={(e) => handleSubmit(e)}>Submit Quote</button>
+                        <button className="button button-blue" type="button" onClick={(e) => SendQuote(e, formRef, setError, navigate)}>Request Quote</button>
                     </center>
                 </form>
             </section>

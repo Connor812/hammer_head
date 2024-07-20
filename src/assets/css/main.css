@@ -24,6 +24,14 @@ body {
   overflow-x: hidden;
 }
 
+.main-wrapper {
+  flex: 1;
+}
+
+main {
+  /* max-width: 1920px; */
+}
+
 h1,
 h2,
 h3,
@@ -219,7 +227,7 @@ footer {
 }
 
 .underline-animation:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);

@@ -30,6 +30,7 @@
 
 .review {
     width: 100%;
+    max-width: 750px;
     height: auto;
     background-color: var(--grey);
     padding: 20px;

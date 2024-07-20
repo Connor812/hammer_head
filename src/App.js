@@ -37,15 +37,17 @@ function AppContent() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Helmet>
       <Header />
-      <Routes>
-        <Route path="/*" element={<Home />} />
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/service/:id" element={<Service />} />
-        <Route path="/quote" element={<Quote />} />
-        <Route path="/quote/:id" element={<Quote />} />
-        <Route path="/quote_success" element={<QuoteSuccess />} />
-      </Routes>
+      <center className="main-wrapper">
+        <Routes>
+          <Route path="/*" element={<Home />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/service/:id" element={<Service />} />
+          <Route path="/quote" element={<Quote />} />
+          <Route path="/quote/:id" element={<Quote />} />
+          <Route path="/quote_success" element={<QuoteSuccess />} />
+        </Routes>
+      </center>
       <Footer />
     </>
   );

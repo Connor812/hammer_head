@@ -1,144 +1,145 @@
 .hero-img {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    aspect-ratio: 612 / 408;
-    box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  aspect-ratio: 612 / 408;
+  box-sizing: border-box;
 }
 
 .hero-container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
+  position: relative;
+  width: 100%;
+  height: 100vh;
 }
 
 .floating-logo {
-    position: absolute;
-    width: 100%;
-    max-width: 600px;
-    top: 20%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+  position: absolute;
+  width: 100%;
+  max-width: 600px;
+  top: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 .hammer-head-hero-logo {
-    aspect-ratio: 678 / 319;
-    width: 100%;
-    height: auto;
+  aspect-ratio: 678 / 319;
+  width: 100%;
+  height: auto;
 }
 
 .home-services {
-    background-color: var(--blue);
-    color: var(--white);
-    padding: 20px 0;
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 20px 0;
 }
 
 .home-services .service {
-    text-align: center;
+  text-align: center;
 }
 
 .display-services {
-    width: 100%;
-    padding: 20px;
-    display: flex;
+  width: 100%;
+  padding: 20px;
+  display: flex;
 }
 
 @media screen and (max-width: 854px) {
-    .display-services {
-        flex-direction: column;
-        align-items: center;
-    }
+  .display-services {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .display-services:nth-child(even) {
-        flex-direction: column !important;
-    }
+  .display-services:nth-child(even) {
+    flex-direction: column !important;
+  }
 
-    .service-img-container {
-        width: 100% !important;
-        min-width: 0px !important;
-        display: flex;
-        justify-content: center;
-    }
+  .service-img-container {
+    width: 100% !important;
+    min-width: 0px !important;
+    display: flex;
+    justify-content: center;
+  }
 
-    .service-image {
-        width: 100% !important;
-        max-width: 352px;
-        min-width: 0px !important;
-    }
+  .service-image {
+    width: 100% !important;
+    max-width: 352px;
+    min-width: 0px !important;
+  }
 
-    .service-description {
-        width: 100% !important;
-    }
+  .service-description {
+    width: 100% !important;
+  }
 
-    .service-description .button {
-        width: 100% !important;
-    }
-    .quote-image-container {
-        display: none !important;
-    }
+  .service-description .button {
+    width: 100% !important;
+  }
+  .quote-image-container {
+    display: none !important;
+  }
 }
 
 .service-img-container {
-    width: 40%;
-    min-width: 352px;
+  width: 40%;
+  min-width: 352px;
 }
 
 .service-image {
-    aspect-ratio: 4044 / 3372;
-    width: 100%;
-    height: auto;
-    border: var(--border-radius);
+  aspect-ratio: 4044 / 3372;
+  width: 100%;
+  height: auto;
+  border: var(--border-radius);
 }
 
 .service-description {
-    width: 60%;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  width: 60%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
 }
 
 .display-services-odd {
-    flex-direction: row-reverse;
-    background-color: var(--blue);
-    color: var(--white)
+  flex-direction: row-reverse;
+  background-color: var(--blue);
+  color: var(--white);
 }
 
 .home-quote-container {
-    height: 125px;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  height: 125px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .quote-image-container {
-    width: 100%;
-    max-width: 150px;
+  width: 100%;
+  max-width: 150px;
 }
 
 .home-quote-logo {
-    aspect-ratio: 1280 / 889;
-    width: 100%;
-    height: auto;
+  aspect-ratio: 1280 / 889;
+  width: 100%;
+  height: auto;
 }
 
 .left-logo {
-    transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 .home-quote {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .home-quote h1 {
-    height: 100%;
+  height: 100%;
 }
 
-.service  a {
-    text-decoration: none;
+.service a {
+  text-decoration: none;
 }

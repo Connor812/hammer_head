@@ -1,5 +1,7 @@
 import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
 import Image from '../helpers/Image';
+import services from "../assets/services/services.json";
 import { DataContext } from '../DataProvider';
 
 function Footer() {
@@ -26,12 +28,13 @@ function Footer() {
                 <div className='footer-right-side-bottom'>
                     <ul>
                         <li><b>Services</b></li>
-                        <li><a href="#windows" className="underline-animation">Windows</a></li>
-                        <li><a href="#windows" className="underline-animation">Windows</a></li>
-                        <li><a href="#windows" className="underline-animation">Windows</a></li>
-                        <li><a href="#windows" className="underline-animation">Windows</a></li>
-                        <li><a href="#windows" className="underline-animation">Windows</a></li>
-                        <li><a href="#windows" className="underline-animation">Windows</a></li>
+                        {services.map((service, index) => (
+                            <li key={index}>
+                                <Link to={`/service/${service.id}`} className="underline-animation">
+                                    {service.name}
+                                </Link>
+                            </li>
+                        ))}
                     </ul>
                     <ul>
                         <li><b>Contact</b></li>
